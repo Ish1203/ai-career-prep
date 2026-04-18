@@ -151,7 +151,7 @@ ai-career-prep/
 | Variable | Where | Description |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | backend/.env | Claude API key from console.anthropic.com |
-| `REACT_APP_API_URL` | frontend (Vercel) | ai-career-prep.vercel.app |
+| `REACT_APP_API_URL` | frontend (Vercel) | https://ai-career-prep.vercel.app |
 
 ---
 
