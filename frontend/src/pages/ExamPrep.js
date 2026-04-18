@@ -31,7 +31,7 @@ export default function ExamPrep() {
     const fd = new FormData();
     fd.append('file', files[0]);
     try {
-      const res = await axios.post('/exam/upload-material', fd, { headers: {'Content-Type': 'multipart/form-data'} });
+      const res = await axios.post('https://ai-career-prep-backend.onrender.com/exam/upload-material', fd, { headers: {'Content-Type': 'multipart/form-data'} });
       setCustomContent(res.data.content);
     } catch { alert('Failed to upload file'); }
     setUploadLoading(false);
@@ -41,7 +41,7 @@ export default function ExamPrep() {
   const generateQuiz = async () => {
     setLoading(true); setQuestions([]); setAnswers({}); setEvaluated({}); setQuizDone(false);
     try {
-      const res = await axios.post('/exam/generate', {
+      const res = await axios.post('https://ai-career-prep-backend.onrender.com/exam/generate', {
         topic, company: company || null, difficulty, num_questions: numQ,
         custom_content: customContent || null
       });
@@ -59,7 +59,7 @@ export default function ExamPrep() {
     if (!answers[q.id]) return;
     setEvaluating(e => ({ ...e, [q.id]: true }));
     try {
-      const res = await axios.post('/exam/evaluate', {
+      const res = await axios.post('https://ai-career-prep-backend.onrender.com/exam/evaluate', {
         question: q.question,
         user_answer: answers[q.id],
         correct_answer: q.correct,

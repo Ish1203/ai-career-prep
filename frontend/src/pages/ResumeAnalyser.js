@@ -62,7 +62,7 @@ export default function ResumeAnalyser() {
       const fd = new FormData();
       fd.append('file', file);
       fd.append('target_role', role);
-      const endpoint = mode === 'analyse' ? '/resume/analyse' : '/resume/match';
+      const endpoint = mode === 'analyse' ? 'https://ai-career-prep-backend.onrender.com/resume/analyse' : 'https://ai-career-prep-backend.onrender.com/resume/match';
       if (mode === 'match') fd.append('job_description', jd);
       const res = await axios.post(endpoint, fd, { headers: { 'Content-Type': 'multipart/form-data' } });
       setResult(res.data);

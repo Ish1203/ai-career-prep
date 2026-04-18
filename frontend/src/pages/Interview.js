@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 
-const API = '/interview';
+const API = 'https://ai-career-prep-backend.onrender.com/interview';
 
 const ROLES = [
   'Software Development Engineer (SDE)', 'Data Analyst', 'Data Scientist',
