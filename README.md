@@ -25,7 +25,6 @@ An AI-powered career preparation platform built with **React + FastAPI + Claude 
 ### Prerequisites
 - Python 3.10+
 - Node.js 18+
-- An [Anthropic API key](https://console.anthropic.com)
 
 ---
 
