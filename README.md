@@ -157,8 +157,8 @@ ai-career-prep/
 
 ## 📸 Screenshots
 
-> Add screenshots of your running app here before uploading to GitHub!
-
+<img src="C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013357.png" width="500">
+<img src="C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013421.png" width="500">
 ---
 
 ## 🤝 Contributing
