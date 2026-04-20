@@ -155,20 +155,6 @@ ai-career-prep/
 
 ---
 
-## 📸 Screenshots
-
-<<<<<<< HEAD
-<img src="C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013357.png" width="500">
-<img src="C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013421.png" width="500">
-=======
-C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013357.png
-C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013421.png
-C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013437.png
-C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013448.png
-C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013501.png
->>>>>>> 6e79fb2c7e60f21878ea9bd3a37b01a187756f3c
----
-
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first.
