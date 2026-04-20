@@ -150,15 +150,23 @@ ai-career-prep/
 
 | Variable | Where | Description |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | backend/.env | Your Claude API key from console.anthropic.com |
-| `REACT_APP_API_URL` | frontend (Vercel) | Your deployed backend URL (for production) |
+| `ANTHROPIC_API_KEY` | backend/.env | Claude API key from console.anthropic.com |
+| `REACT_APP_API_URL` | frontend (Vercel) | https://ai-career-prep.vercel.app |
 
 ---
 
 ## 📸 Screenshots
 
+<<<<<<< HEAD
 <img src="C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013357.png" width="500">
 <img src="C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013421.png" width="500">
+=======
+C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013357.png
+C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013421.png
+C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013437.png
+C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013448.png
+C:\Users\ishdu\Pictures\Screenshots\Screenshot 2026-04-19 013501.png
+>>>>>>> 6e79fb2c7e60f21878ea9bd3a37b01a187756f3c
 ---
 
 ## 🤝 Contributing
